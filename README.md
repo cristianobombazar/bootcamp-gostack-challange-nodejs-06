@@ -7,12 +7,16 @@
 <p align="center">“Só deseje as coisas as quais você está disposto a lutar”!</blockquote>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/cristianobombazar/bootcamp-gostack-challange-nodejs-06?color=%2304D361">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rocketseat/bootcamp-gostack-desafios?color=%2304D361">
+
+  <a href="https://rocketseat.com.br">
+    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%2304D361">
+  </a>
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361">
 
   <a href="https://github.com/Rocketseat/bootcamp-gostack-desafios/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/cristianobombazar/bootcamp-gostack-challange-nodejs-06?style=social">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/rocketseat/bootcamp-gostack-desafios?style=social">
   </a>
 </p>
 
@@ -57,6 +61,8 @@ Agora que você já está com o template clonado e pronto para continuar, você 
   "category": "Alimentação"
 }
 ```
+
+**Dica**: Para criar uma categoria, sempre verifique antes se a categoria já existe no banco de dados. Por exemplo, se a categoria "Alimentação" não existir no banco de dados, crie essa categoria no mesmo momento, e utilize o id criado. Caso ela já exista, utilize o `id` que já está presente no banco de dados.
 
 - **`GET /transactions`**: Essa rota deve retornar uma listagem com todas as transações que você cadastrou até agora, junto com o valor da soma de entradas, retiradas e total de crédito. Essa rota deve retornar um objeto com o formato a seguir:
 
@@ -153,3 +159,7 @@ Esse desafio deve ser entregue a partir da plataforma Skylab, envie o link do re
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+---
+
+Feito com 💜 by Rocketseat :wave: [Entre na nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
